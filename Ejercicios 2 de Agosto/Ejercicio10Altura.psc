@@ -4,7 +4,7 @@ Algoritmo Ejercicio10Altura
 	Leer altura
 	Para i<-altura Hasta 1 Con Paso -1 Hacer
 		Para x<-1 Hasta i Hacer
-			Escribir "*"
+			Escribir "*" Sin Saltar
 		FinPara
 		Escribir ""
 	FinPara
