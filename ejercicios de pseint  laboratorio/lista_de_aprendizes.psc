@@ -1,0 +1,41 @@
+Algoritmo lista_de_aprendizes
+	Definir  nombre , apellido como caracter 
+	Definir nota como real 
+	Escribir " resultado de la evaluación"
+	 Leer nota 
+	Escribir " Nombres y Apellidos "
+	para x <- 1 Hasta 1 con paso 1 hacer 
+		 
+		Escribir  "1 JUNIOR EDIMER ARIAS CASTELLANOS" 
+		Escribir  "2 ANGELA LISETH AVELLANEDA BECERRA "
+		Escribir  "3 LEIMAR JOEL BAYONA ROJAS"
+		Escribir  "4 EFRAIN JOSE CARRASCAL OVALLES"
+		Escribir  "5 WANDER STEVEN CASAS SANDOVAL"
+		Escribir  "6 CRISTIAN CAMILO CONTRERAS VARGAS "
+		Escribir  "7 YEFERSON HERNAN DURAN SUAREZ"
+		Escribir  "8 JAIDER ALEXANDER ESTEBAN GONZALEZ"
+		Escribir  "9 EDWIN ALEXIS GIRALDO SALAZAR"
+		Escribir  "10 MAURICIO ALEJANDRO GOMEZ ACUÑA"
+		Escribir  "11 CRISTIAN ANDRES GOMEZ CASTAÑEDA"
+		Escribir  "12 KAROL MILENA HERNANDEZ AGUILAR"
+        Escribir  "13 OSCAR ANDRES LIZCANO CLARO"
+		Escribir  "14 LUNA ALEXANDRA MALAVER"
+		Escribir  "15 ANTHONY MANUEL MANTILLA PONTON"
+		Escribir  "16 IVAN DARIO MEJIA VILLABONA"
+		Escribir  "17 GABRIEL ALEJANDRO MORALES RUBIO"
+		Escribir  "18 YILBER STIVEN ORTIZ LARA"
+		Escribir  "19 PAULA ANDREA PATIÑO CASTRO"
+		Escribir  "20 JOSMAN ERASMO PEREZ AVENDAÑO"
+		Escribir  "21 YHAN DAVID PRADO RINCON"
+	    Escribir  "22 JUAN FELIX RESTREPO OSPINA"
+		Escribir  "23 JAVIER STIVEN RINCON MOYANO"
+		Escribir  "24 JUAN CAMILO ROSERO CAMPAZ"
+		Escribir  "25 KEINER ALEJANDRO SERRANO ALVAREZ"
+		Escribir  "26 DAVID FERNANDO TOBON SOLEDAD"
+		Escribir  "27 JUAN DAVID VILLAMIZAR ESPINOSA"
+
+		
+		
+	FinPara
+	
+FinAlgoritmo
