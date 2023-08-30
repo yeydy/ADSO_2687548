@@ -1,0 +1,24 @@
+//Escribir un programa que lea un número por teclado. En caso de que ese número sea 0 o 
+//menor que 0, se saldrá del programa imprimiendo antes un mensaje de error. Si es mayor 
+//que 0, se deberá calcular su cuadrado y la raiz cuadrada del mismo. Para calcular la raiz 
+//cuadrada se puede usar la función rc(X) de PSEINT
+
+funcion calcular(num1)
+	si num1 <= 0 Entonces
+		escribir "ERROR";
+	SiNo
+		
+		si num1 > 0 Entonces
+			raizs<-rc(num1);
+			cuadrado<-num1*num1;
+			escribir "el cuadardo es",cuadrado; 
+			escribir " la raiz cuarada es ",raizs;
+		FinSi
+	FinSi
+FinFuncion
+Algoritmo ejercicio_4
+	escribir " ingrese un digito ";
+	leer num1;
+    calcular(num1);
+FinAlgoritmo
+	
