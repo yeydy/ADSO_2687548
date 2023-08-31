@@ -1,24 +1,22 @@
-Algoritmo ejercicio3
-	Definir nota1,nota2,nota3 Como Real
+Funcion radio<-calc(perimetro) 
+		pir = 3.141592
+        radio = perimetro / (2 * pir)
+        Devolver=radio
+    Fin Funcion
+	Funcion area<-calcu(radio)
+		pir = 3.141592
+        area = pir * radio * radio
+        Devolver=area
+    Fin Funcion
+	Algoritmo CalcularAreaCirculo
+definir perimetro, radio,perimetroC,pir como Real
+    Escribir "Ingrese el perímetro del círculo:"
+    Leer perimetro
+	Escribir "ingrese el radio del circulo"
+	leer radio
+    radioCirculo =calc(perimetro)
+    areaCirculo =calcu(radio)
 	
-	Escribir "Ingresa la nota de la primera evaluación: "
-	Leer nota1
+    Escribir "El área del círculo es:", areaCirculo
 	
-	Escribir "Ingresa la nota de la segunda evaluación: "
-	Leer nota2
-	
-	Escribir "Ingresa la nota de la tercera evaluación: "
-	Leer nota3
-	
-	notaTrimestre <- (nota1 + nota2 + nota3) / 3
-	
-	Escribir "La nota del trimestre es: ", notaTrimestre
-	
-	Si notaTrimestre >= 7.0 Entonces
-		Escribir "Aprobado."
-	SiNo
-		Escribir "Debe realizar un plan de mejoramiento."
-	FinSi
-	
-FinAlgoritmo
-
+Fin Algoritmo
