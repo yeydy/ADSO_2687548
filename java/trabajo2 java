@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class CalculoEdades {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int sumaEdades = 0;
+        int contadorEdades = 0;
+        int contadorMayores50 = 0;
+
+        System.out.println("Ingrese las edades (ingrese 0 para finalizar):");
+
+        while (true) {
+            System.out.print("Edad: ");
+            int edad = input.nextInt();
+
+            if (edad == 0) {
+                break; // Termina el ingreso de datos
+            }
+
+            sumaEdades += edad;
+            contadorEdades++;
+
+            if (edad > 50) {
+                contadorMayores50++;
+            }
+        }
+
+        input.close();
+
+        if (contadorEdades > 0) {
+            double promedioEdades = (double) sumaEdades / contadorEdades;
+            double porcentajeMayores50 = ((double) contadorMayores50 / contadorEdades) * 100;
+
+            System.out.println("Promedio de edades ingresadas: " + promedioEdades);
+            System.out.println("Porcentaje de personas mayores de 50 años: " +

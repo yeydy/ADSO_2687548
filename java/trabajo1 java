@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class VerificarNumero {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Introduce un número positivo: ");
+        double numero = input.nextDouble();
+
+        if (numero > 0) {
+            if (numero > 60 && numero < 90) {
+                System.out.println("El número está en el intervalo abierto (60, 90).");
+            } else {
+                System.out.println("El número no está en el intervalo abierto (60, 90).");
+            }
+        } else {
+            System.out.println("Error: El número no es positivo.");
+        }
+
+        input.close();
+    }
+}

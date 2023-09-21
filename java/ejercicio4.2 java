@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class TablaMultiplicarDoWhile {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Ingrese un número para ver su tabla de multiplicar: ");
+        int numero = input.nextInt();
+
+        System.out.println("Tabla de multiplicar del " + numero + ":");
+
+        int i = 1;
+        do {
+            int resultado = numero * i;
+            System.out.println(numero + " x " + i + " = " + resultado);
+            i++;
+        } while (i <= 10);
+
+        input.close();
+    }
+}
